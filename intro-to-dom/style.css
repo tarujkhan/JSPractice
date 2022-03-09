@@ -1,0 +1,19 @@
+h1#page-title {
+    background-color: lightgreen;
+  }
+  
+  div.cant-touch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    margin: 25px;
+    background-color: orange;
+  }
+  
+  img#catpic {
+    border: 3px solid black;
+    padding: 25px;
+    background-color: pink;
+  }
