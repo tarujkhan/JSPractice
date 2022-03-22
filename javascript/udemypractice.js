@@ -18,11 +18,23 @@ let's start working */
 
 // console.log(multiply(9,8));
 
-function isShortsWeather(temprature) {
-    if(temprature >= 70) {
-        return true; 
-    } else {
-    return false;
+// function isShortsWeather(temprature) {
+//     if(temprature >= 90) {
+//         return true; 
+//     } else {
+//     return false;
+//     }
+// }
+// console.log(isShortsWeather(80));
+
+// const greet = name => {
+//     return "Hello" + name + "!"; };
+//     console.log(greet("Blue"));
+
+function validUserNames(usernames) {
+    return usernames.filter(function(username) {
+        return username.length < 10;
     }
-}
-console.log(isShortsWeather(80));
+    )
+    
+    }
