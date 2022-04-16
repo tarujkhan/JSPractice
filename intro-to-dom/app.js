@@ -57,8 +57,8 @@ const clickSubmit = document.querySelector('#submit');
 let winningDish = 'pizza';
 let enteredDish = '';
 clickSubmit.addEventListener('click', function(){
-    for(let i=0; i<enteredDish.length; i++);
+    for(let i=0; i<enteredDish; i++);
     if(i === winningDish) {
-        alert("You guessed i right")
+        alert("You guessed it right")
     }
 })
