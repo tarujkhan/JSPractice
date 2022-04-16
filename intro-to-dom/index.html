@@ -1,27 +1,4 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Score Keeper</title>
-</head>
-<body>
-    <h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
-    <select name="" id="playto"></select>
-        <option value="3">3</option>
-        <option value="3">3</option>
-        <option value="3">3</option>
-        <option value="3">3</option>
-        <option value="3">3</option>
-        <option value="3">3</option>
-        
-    <button id="p1Button">+1 Player one</button>
-    <button id="p2Button">+2 Player two</button>
-    <button id='reset'>Reset</button>
-    <script src="app.js"></script>
-</body>
-</html> -->
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,11 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+    
+<body>
     <h1>Enter a dish to see if you can guess the hidden dish</h1>
     <label for="dishname">Enter dish:</label>
-<input type="text" id="dishname" name="dishname">
-<input type="submit" id="submit" value="Submit">
-<body>
-    
+    <form id="myform">
+
+        <input type="text" id="dishname" name="dishname">
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
+    <script src="app.js"></script>
 </body>
 </html>

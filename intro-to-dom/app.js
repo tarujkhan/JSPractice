@@ -53,12 +53,22 @@
 // if not then restart
 // reset button
 
-const clickSubmit = document.querySelector('#submit');
+
+const newform = document.querySelector('#myform')
+// console.log(newform)
+
 let winningDish = 'pizza';
 let enteredDish = '';
-clickSubmit.addEventListener('click', function(){
-    for(let i=0; i<enteredDish; i++);
-    if(i === winningDish) {
-        alert("You guessed it right")
-    }
+newform.addEventListener('submit', function(event){
+   
+   event.preventDefault();
+   console.log("clicked")
+   const userinput = document.querySelector("#dishname").value
+   console.log("Submitted", userinput)
+       if(userinput === winningDish) {
+           console.log("You found the dish") 
+       } else {
+           console.log("please try again")
+       }
+    
 })
