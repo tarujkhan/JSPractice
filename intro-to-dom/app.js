@@ -73,10 +73,15 @@
     
 // })
 
-create a webpage with three boxes
-each box(clicked) will show flash to fade content 
-create css with clicked
-create html file with three buttons
-each button has its own id 
+// create a webpage with three buttons
+// each button(clicked) will show flash to fade content 
+// create css with clicked
+// create html file with three buttons
+// each button has its own id 
 
 
+const newform = document.querySelector("#myform");
+console.log(newform)
+newform.addEventListener('click', function(event){
+    event.preventDefault();
+})
