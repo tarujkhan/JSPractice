@@ -74,7 +74,7 @@
 // })
 
 // create a webpage with three buttons
-// each button(clicked) will show flash to fade content 
+// each button(clicked) will show content 
 // create css with clicked
 // create html file with three buttons
 // each button has its own id 
